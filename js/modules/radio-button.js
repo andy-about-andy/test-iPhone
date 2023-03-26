@@ -1,0 +1,1 @@
+const bth=document.querySelector(".btn--price"),sale=document.querySelector(".page-content__price-input--sale"),radioButton=()=>{bth.addEventListener("click",(()=>{sale.checked?bth.href="https://google.com/":bth.href="https://apple.com/"}))};export{radioButton};

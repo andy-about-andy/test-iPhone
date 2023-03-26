@@ -1,0 +1,19 @@
+{
+  "features": "全ての機能へ 無制限アクセス",
+  "documents": "無制限のドキュメント",
+  "mode": "カウントモード",
+  "recognition": "テキスト認識 (OCR)",
+  "monthly": "月次",
+  "price": "月",
+  "free": "3日間無料",
+  "priceMonth": "$9.99 か月",
+  "annually": "年次",
+  "priceYear": "年",
+  "popular": "一番人気",
+  "priceYearMonth": "$1.66 か月",
+  "continue": "続行する",
+  "autoRenewable": "自動更新可能。いつでもキャンセル可能。",
+  "terms": "利用規約",
+  "restore": "復元する",
+  "privacyPolicy": "プライバシーポリシー"
+}
