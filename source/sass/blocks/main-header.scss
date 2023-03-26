@@ -1,0 +1,38 @@
+.main-header {
+  width: 375px;
+  min-height: 24px;
+  padding-top: 40px;
+}
+
+.main-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-header__link {
+  display: block;
+  font-family: $ff-sf-pro-text;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  opacity: 0.6;
+  transition: color $trans-default;
+  letter-spacing: -0.216667px;
+}
+
+.main-header__link--close {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  fill: $color-default-white;
+  opacity: 0.4;
+  transition: fill $trans-default;
+}
+
+.main-header__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

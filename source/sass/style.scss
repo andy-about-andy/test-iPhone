@@ -1,0 +1,20 @@
+// Global
+// ---------------------------------
+
+@import "variables";
+@import "mixins";
+@import "global/fonts";
+@import "global/global";
+@import "global/utils";
+@import "global/container";
+
+// Blocks
+// ---------------------------------
+
+@import "blocks/btn";
+@import "blocks/page-content";
+@import "blocks/main-header";
+@import "blocks/main-footer";
+
+// для любых transition обязательно указывать transition-property
+// transition: $trans-default ❌ ---> transition: color $trans-default ✅

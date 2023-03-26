@@ -1,0 +1,19 @@
+{
+  "features": "无限制使用 所有功能",
+  "documents": "文档无限制",
+  "mode": "计数模式",
+  "recognition": "文本识别（OCR）",
+  "monthly": "每月",
+  "price": "每月",
+  "free": "3日免费",
+  "priceMonth": "$9.99 月",
+  "annually": "包年",
+  "priceYear": "每年",
+  "popular": "最热门",
+  "priceYearMonth": "$1.66 月",
+  "continue": "继续",
+  "autoRenewable": "自动续订。可随时取消。",
+  "terms": "使用条款",
+  "restore": "恢复",
+  "privacyPolicy": "隐私政策"
+}

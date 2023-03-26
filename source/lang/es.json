@@ -1,0 +1,19 @@
+{
+  "features": "Acceso ilimitado a todas las funciones",
+  "documents": "Documentos ilimitados",
+  "mode": "Modo de recuento",
+  "recognition": "Reconocimiento de texto (OCR)",
+  "monthly": "Mensual",
+  "price": "por mes",
+  "free": "3 DÍAS GRATIS",
+  "priceMonth": "$9.99 mes",
+  "annually": "Anual",
+  "priceYear": "por año",
+  "popular": "LO MÁS PEDIDO",
+  "priceYearMonth": "$1.66 mes",
+  "continue": "Continuar",
+  "autoRenewable": "Renovable automáticamente. Cancela cuando quieras.",
+  "terms": "Términos de uso",
+  "restore": "Restablecer",
+  "privacyPolicy": "Política de privacidad"
+}

@@ -1,0 +1,62 @@
+// Colors
+// ---------------------------------
+$color-default-black:               #000000;
+$color-default-white:               #ffffff;
+$color-transparent:                 rgba(255, 255, 255, 0);
+
+// Project palette
+// для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
+// ---------------------------------
+
+
+$color-neon-blue:                   #2c39f2;
+$color-torch-red:                   #ff1553;
+$color-alice-blue:                  #f8fafc;
+$color-bunting:                     #2c3244;
+$color-lavender-grey:               #bdc0d0;
+$color-free-speech-red:             #db0000;
+$color-governor-bay:                #495795;
+
+// Gradient
+// ---------------------------------
+$black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+
+// Viewports
+// ---------------------------------
+$vp-320:                            320px;
+$vp-376:                            376px;
+$vp-768:                            768px;
+$vp-1024:                           1024px;
+$vp-1280:                           1280px;
+$vp-1440:                           1440px;
+$vp-1920:                           1920px;
+
+// Typography
+// ---------------------------------
+
+// переменная используемая в html для подключения скейлинга
+$fz-default:                        14px;
+
+// font-weight:
+$ff-sf-pro-display:                "SF Pro Display", "Arial", sans-serif;
+$ff-sf-pro-text:                   "SF Pro Text", "Arial", sans-serif;
+$ff-roboto:                        "Roboto", "Arial", sans-serif;
+
+// Animation
+// ---------------------------------
+
+$tf-default:                        ease;
+$tf-ease-out:                       ease-out;
+$trans-default:                     0.3s $tf-default;
+
+// если требуется easing отличный от $tf-default, то переменную называем не цифрой
+$trans-modal:                       0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+$trans-600:                         0.6s $tf-default;
+$trans-600-easy-out:                0.6s $tf-ease-out;
+
+// Retina
+// ---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;

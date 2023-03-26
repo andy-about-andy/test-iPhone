@@ -1,0 +1,242 @@
+.page-content {
+  width: 100%;
+  height: 100%;
+  padding-top: 151px;
+
+  @include vp-375 {
+    margin: auto 0 0;
+    padding: 0;
+  }
+}
+
+.page-content__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-content__wrapper h1 {
+  margin: 0 2px 0 0;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.page-content__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 10px;
+  padding: 31px 0 0;
+  list-style-type: none;
+}
+
+.page-content__item {
+  font-family: $ff-sf-pro-text;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -0.321111px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.684495);
+}
+
+.page-content__link {
+  display: flex;
+  align-items: center;
+}
+
+.page-content__icon {
+  display: block;
+  margin-right: 8px;
+
+  &--export {
+    margin-right: 12px;
+    margin-left: 2px;
+  }
+
+  &--noAds {
+    margin-right: 9px;
+    margin-left: 3px;
+  }
+}
+
+.page-content__price {
+  padding-top: 45px;
+}
+
+.page-content__price-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-content__price-item {
+  margin-right: 9px;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.page-content__inner {
+  position: relative;
+  width: 137px;
+  height: 162px;
+  padding: 23px 12px 13px 8px;
+  text-align: center;
+  opacity: 0.49;
+}
+
+.page-content__price-inner h3 {
+  margin: 0 0 16px;
+  font-size: 17px;
+  line-height: 20px;
+
+}
+
+.page-content__price-cost {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 15px;
+}
+
+.page-content__price-cost span {
+  margin-bottom: 13px;
+  padding-top: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.page-content__price-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -11px;
+    z-index: -1;
+    width: 137px;
+    height: 20px;
+    background-color: $color-governor-bay;
+  }
+}
+
+.page-content__price-inner > span {
+  display: block;
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.page-content__price-mark {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 131px;
+    height: 162px;
+    background-image: url("../img/svg/shape-1.svg");
+    background-size: 131px 162px;
+    background-repeat: no-repeat;
+  }
+}
+
+.page-content__price-mark--sale {
+  &::before {
+    background-image: url("../img/svg/shape-2.svg");
+  }
+}
+
+.page-content__inner--sale {
+  &::before {
+    content: "-83%";
+    position: absolute;
+    top: 0;
+    right: 6px;
+    width: 30px;
+    height: 30px;
+    padding: 9px 0 0;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 50%;
+    background-color: $color-free-speech-red;
+  }
+}
+
+// -----------------------------------------
+
+input[type="radio"]:checked + .page-content__inner {
+  width: 151px;
+  height: 178px;
+  padding: 25px 15px 14px 8px;
+  opacity: 1.0;
+
+  .page-content__price-mark::before {
+    width: 145px;
+    height: 178px;
+    background-size: 145px 178px;
+  }
+
+  h3 {
+    margin: 0 0 22px;
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .page-content__price-cost {
+    font-size: 24px;
+  }
+
+  .page-content__price-cost span {
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+
+  .page-content__price-text {
+    height: 22px;
+    font-size: 15px;
+    line-height: 18px;
+
+    &::before {
+      left: -11px;
+      width: 151px;
+      height: 22px;
+    }
+  }
+
+  .page-content__price-text + span {
+    margin: 11px 0 0;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+input[type="radio"]:checked + .page-content__inner--sale {
+  &::before {
+    top: -3px;
+    right: 4px;
+    width: 38px;
+    height: 38px;
+    padding: 11px 0 0;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/sf-pro-display-regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/sf-pro-text-regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/apple.png">
+    <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="main-header">
+        <div class="container">
+          <div class="main-header__wrapper">
+            <a class="main-header__link main-header__link--close" href="#">
+              <svg class="main-header__icon" aria-hidden="true" focusable="false" width="16" height="16">
+                <use href="img/sprite.svg#icon-close"></use>
+              </svg>
+            </a>
+            <a class="main-header__link restore" href="#">Restore</a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="page-content">
+          <div class="container">
+            <div class="page-content__wrapper">
+              <h1 class="features">Unlimited Access<br>to All Features</h1>
+              <ul class="page-content__list">
+                <li class="page-content__item">
+                  <a class="page-content__link" href="#">
+                    <svg class="page-content__icon" aria-hidden="true" focusable="false" width="26" height="15">
+                      <use href="img/sprite.svg#unlimited-docs"></use>
+                    </svg>
+                    <span class="documents">Unlimited documents</span>
+                  </a>
+                </li>
+                <li class="page-content__item">
+                  <a class="page-content__link" href="#">
+                    <svg class="page-content__icon page-content__icon--export" aria-hidden="true" focusable="false" width="20" height="22">
+                      <use href="img/sprite.svg#export"></use>
+                    </svg>
+                    <span class="mode">Export to clouds</span>
+                  </a>
+                </li>
+                <li class="page-content__item">
+                  <a class="page-content__link" href="#">
+                    <svg class="page-content__icon page-content__icon--noAds" aria-hidden="true" focusable="false" width="22" height="22">
+                      <use href="img/sprite.svg#noAds"></use>
+                    </svg>
+                    <span class="recognition">Text recognition (OCR)</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="page-content__price">
+                <h2 class="visually-hidden">Tariff selection</h2>
+                  <ul class="page-content__price-list">
+                    <li class="page-content__price-item">
+                      <label> <!-- знаю, что вкладывать в label можно только строчные -->
+                        <input class="visually-hidden page-content__price-input" type="radio" name="app" value="month" checked>
+                        <div class="page-content__inner">
+                          <span class="page-content__price-mark"></span>
+                          <div class="page-content__price-inner">
+                            <h3 class="monthly">Monthly</h3>
+                            <div class="page-content__price-cost">$9.99
+                              <span class="price">per month</span>
+                            </div>
+                            <div class="page-content__price-text free">3 days free!</div>
+                            <span class="priceMonth">$9.99 month</span>
+                          </div>
+                        </div>
+                      </label>
+                    </li>
+                    <li class="page-content__price-item">
+                      <label> <!-- знаю, что вкладывать в label можно только строчные -->
+                        <input class="visually-hidden page-content__price-input page-content__price-input--sale" type="radio" name="app" value="year">
+                        <div class="page-content__inner page-content__inner--sale">
+                          <span class="page-content__price-mark page-content__price-mark--sale"></span>
+                          <div class="page-content__price-inner">
+                            <h3 class="annually">Annually</h3>
+                            <div class="page-content__price-cost">$19.99
+                              <span class="priceYear">per year</span>
+                            </div>
+                            <div class="page-content__price-text popular">Most popular</div>
+                            <span class="priceYearMonth">$1.66 month</span>
+                          </div>
+                        </div>
+                      </label>
+                    </li>
+                  </ul>
+                <a class="btn btn--price continue" href="https://apple.com/">Continue</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="main-footer">
+        <div class="container">
+          <div class="main-footer__wrapper">
+            <span class="autoRenewable">Auto-rewable. Cancel anytime</span>
+            <div class="main-footer__inner">
+              <a class="main-footer__link terms" href="#">Terms of Use</a>
+              <a class="main-footer__link privacyPolicy" href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
